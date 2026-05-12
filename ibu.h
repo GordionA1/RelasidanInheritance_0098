@@ -29,3 +29,8 @@ public:
     void tambahAnak(anak* pAnak);
     void cetakAnak();
 };
+
+//pendefinisian prosedur - prosedur pada class ibu diluar class
+void Ibu::tambahAnak(anak* pAnak) {
+    daftar_anak.push_back(pAnak);
+}
